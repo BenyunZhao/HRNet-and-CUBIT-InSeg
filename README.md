@@ -1,7 +1,7 @@
 # Reparameterized Hybrid Instance Segmentation Network for Drone-based Real-time Multi-defect Infrastructure Inspection
 
 ### Dataset Distribution Comparison
-<img src="Figures/tsne-dataset.jpg" width="500">
+<img src="Figures/tsne-dataset.jpg" width="600">
 
 ### Benchmark Datasets Performance:
 #### Our proposed CUBIT-InSeg dataset
@@ -76,7 +76,7 @@ python export.py
 python infer-seg.py 
 ```
 
-### Dataset in our work can be available at: <button style="background-color: #000000; color: white; margin: 0 auto; padding: 10px 15px;border: none; border-radius: 5px;"><a href="https:onedrive" style="color: white; text-decoration: none;">OneDrive</a> </button>, <button style="background-color: #000000; color: white; margin: 0 auto; padding: 10px 15px;border: none; border-radius: 5px;"><a href="https:baidu" style="color: white; text-decoration: none;">BaiduNet</a> </button>
+### Dataset in our work can be available at: <button style="background-color: #000000; color: white; margin: 0 auto; padding: 10px 15px;border: none; border-radius: 5px;"><a href="https://mycuhk-my.sharepoint.com/:f:/g/personal/1155145791_link_cuhk_edu_hk/Ep7cFAjk-XNKin8u6DiG_MoB8Yl-kaMfWlkjWQsYLz3qtw?e=cgLBys" style="color: white; text-decoration: none;">OneDrive</a> </button>
 
 
 
