@@ -4,7 +4,7 @@
 <img src="Figures/cuastro-v2.png" width="700">
 
 ### Dataset Distribution Comparison
-<img src="Figures/tsne-dataset.png" width="500">
+<img src="Figures/tsne-dataset.jpg" width="500">
 
 ### Benchmark Datasets Performance:
 #### Our proposed CUBIT-InSeg dataset
@@ -52,16 +52,16 @@ python setup.py install
 ### Train
 ```python
 # Single GPU training
-python train.py > logs/HRNet-n-train.log 2>&1 & tail -f logs/HRNet-n-train.log
+python train-seg.py > logs/HRNet-n-train.log 2>&1 & tail -f logs/HRNet-n-train.log
 
 # Multi-GPUs training
-python -m torch.distributed.run --nproc_per_node 2 train.py > logs/HRNet-n-train.log 2>&1 & tail -f logs/HRNet-n-train.log
+python -m torch.distributed.run --nproc_per_node 2 train-seg.py > logs/HRNet-n-train.log 2>&1 & tail -f logs/HRNet-n-train.log
 ```
 
 ### Validate / Test
 ```python
 # Ultralytics framework validation / test
-python val.py > logs/HRNet-n-val(test).log 2>&1 & tail -f logs/HRNet-n-val(test).log
+python val-seg.py > logs/HRNet-n-val(test).log 2>&1 & tail -f logs/HRNet-n-val(test).log
 ```
 
 ### Output of the model
@@ -73,7 +73,7 @@ python export.py
 ### Inference 
 ```python
 # Predict unknown images / videos
-python detect.py 
+python infer-seg.py 
 ```
 
 ### Dataset in our work can be available at: <button style="background-color: #000000; color: white; margin: 0 auto; padding: 10px 15px;border: none; border-radius: 5px;"><a href="https:onedrive" style="color: white; text-decoration: none;">OneDrive</a> </button>, <button style="background-color: #000000; color: white; margin: 0 auto; padding: 10px 15px;border: none; border-radius: 5px;"><a href="https:baidu" style="color: white; text-decoration: none;">BaiduNet</a> </button>
