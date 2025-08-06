@@ -1,32 +1,32 @@
 # Reparameterized Hybrid Instance Segmentation Network for Drone-based Real-time Multi-defect Infrastructure Inspection
 
-### CU-Astro: Autonomous Compact Aerial Inspection Platform
-<img src="Figures/cuastro-v2.png" width="700">
-
 ### Dataset Distribution Comparison
 <img src="Figures/tsne-dataset.jpg" width="500">
 
 ### Benchmark Datasets Performance:
 #### Our proposed CUBIT-InSeg dataset
-<img src="Figures/cubit-inseg.png" width="700">
+<img src="Figures/cubit-inseg.jpg" width="700">
 
 #### Highway-Crack dataset
-<img src="Figures/highway.png" width="700">
+<img src="Figures/highway.jpg" width="700">
 
 #### Crack-Seg dataset
-<img src="Figures/crackseg.png" width="700">
+<img src="Figures/crackseg.jpg" width="700">
 
 ### Ablation Experiment:
 #### Heatmap Comparison of Backbone 
-<img src="Figures/backbone.png" width="700">
+<img src="Figures/backbone.jpg" width="700">
 
 #### Receptive Field Comparison of Neck 
-<img src="Figures/receptive.png" width="700">
+<img src="Figures/receptive.jpg" width="700">
 
 #### Gradient Comparison of Head 
-<img src="Figures/head.png" width="700">
+<img src="Figures/head-cam.jpg" width="700">
 
-#### Video demonstration [▶️ Watch CU-Astro inspection demonstration video](https://drive.google.com/file/d/1aF60K5ictHUmy_rjEovKXsbXMP1cjLZ5/view?usp=drive_link)
+### CU-Astro: Autonomous Compact Aerial Inspection Platform
+<img src="Figures/cuastro-linechart.jpg" width="700">
+
+### Video demonstration [▶️ Watch CU-Astro inspection demonstration video](https://drive.google.com/file/d/1aF60K5ictHUmy_rjEovKXsbXMP1cjLZ5/view?usp=drive_link)
 
 ## Usage of this repository
 ### Install
