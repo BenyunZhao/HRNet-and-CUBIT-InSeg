@@ -5,26 +5,26 @@
 
 ### Benchmark Datasets Performance:
 #### Our proposed CUBIT-InSeg dataset
-<img src="Figures/cubit-inseg.jpg" width="700">
+<img src="Figures/cubit-inseg.jpg" width="600">
 
 #### Highway-Crack dataset
-<img src="Figures/highway.jpg" width="700">
+<img src="Figures/highway.jpg" width="600">
 
 #### Crack-Seg dataset
-<img src="Figures/crackseg.jpg" width="700">
+<img src="Figures/crackseg.jpg" width="600">
 
 ### Ablation Experiment:
 #### Heatmap Comparison of Backbone 
-<img src="Figures/backbone.jpg" width="700">
+<img src="Figures/backbone.jpg" width="600">
 
 #### Receptive Field Comparison of Neck 
-<img src="Figures/receptive.jpg" width="700">
+<img src="Figures/receptive.jpg" width="600">
 
 #### Gradient Comparison of Head 
-<img src="Figures/head-cam.jpg" width="700">
+<img src="Figures/head-cam.jpg" width="600">
 
 ### CU-Astro: Autonomous Compact Aerial Inspection Platform
-<img src="Figures/cuastro-linechart.jpg" width="700">
+<img src="Figures/cuastro-linechart.jpg" width="600">
 
 ### Video demonstration [▶️ Watch CU-Astro inspection demonstration video](https://drive.google.com/file/d/1aF60K5ictHUmy_rjEovKXsbXMP1cjLZ5/view?usp=drive_link)
 
